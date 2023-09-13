@@ -1,0 +1,25 @@
+{
+  "name": "ra_lifecycle_http_crud_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iIgor2022/ra_lifecycle_http_crud_server.git",
+  "author": "Igor Ovchinnikov <faceplaces@inbox.ru>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "forever": "^4.0.3",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "koa2-cors": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
